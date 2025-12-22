@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "H:\\Old D Drive\\Coding Stuff\\C# Playgrounds\\ArraysPlayground\\ArrayMain\\",
+  "WorkspaceRootPath": "H:\\Old D Drive\\Coding Stuff\\C# Playgrounds\\ArraysPlayground\\ArrayManipulation\\ArrayMain\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DFB1C57E-09CD-466B-BC9F-EE9AA5B70186}|ArrayMain\\ArrayMain.csproj|h:\\old d drive\\coding stuff\\c# playgrounds\\arraysplayground\\arraymain\\arraymain\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFB1C57E-09CD-466B-BC9F-EE9AA5B70186}|ArrayMain\\ArrayMain.csproj|solutionrelative:arraymain\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{387F3C7A-442F-3898-BF54-4E58367F3C91}|ArrayMain\\ArrayMain.csproj|h:\\old d drive\\coding stuff\\c# playgrounds\\arraysplayground\\arraymanipulation\\arraymain\\arraymain\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{387F3C7A-442F-3898-BF54-4E58367F3C91}|ArrayMain\\ArrayMain.csproj|solutionrelative:arraymain\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "H:\\Old D Drive\\Coding Stuff\\C# Playgrounds\\ArraysPlayground\\ArrayMain\\ArrayMain\\Program.cs",
+              "DocumentMoniker": "H:\\Old D Drive\\Coding Stuff\\C# Playgrounds\\ArraysPlayground\\ArrayManipulation\\ArrayMain\\ArrayMain\\Program.cs",
               "RelativeDocumentMoniker": "ArrayMain\\Program.cs",
-              "ToolTip": "H:\\Old D Drive\\Coding Stuff\\C# Playgrounds\\ArraysPlayground\\ArrayMain\\ArrayMain\\Program.cs",
+              "ToolTip": "H:\\Old D Drive\\Coding Stuff\\C# Playgrounds\\ArraysPlayground\\ArrayManipulation\\ArrayMain\\ArrayMain\\Program.cs",
               "RelativeToolTip": "ArrayMain\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-17T22:56:48.164Z",
               "EditorCaption": ""

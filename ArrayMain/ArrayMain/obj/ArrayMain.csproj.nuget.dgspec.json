@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Old D Drive\\Coding Stuff\\C# Playgrounds\\ArraysPlayground\\ArrayMain\\ArrayMain\\ArrayMain.csproj": {}
+    "H:\\Old D Drive\\Coding Stuff\\C# Playgrounds\\ArraysPlayground\\ArrayManipulation\\ArrayMain\\ArrayMain\\ArrayMain.csproj": {}
   },
   "projects": {
-    "H:\\Old D Drive\\Coding Stuff\\C# Playgrounds\\ArraysPlayground\\ArrayMain\\ArrayMain\\ArrayMain.csproj": {
+    "H:\\Old D Drive\\Coding Stuff\\C# Playgrounds\\ArraysPlayground\\ArrayManipulation\\ArrayMain\\ArrayMain\\ArrayMain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Old D Drive\\Coding Stuff\\C# Playgrounds\\ArraysPlayground\\ArrayMain\\ArrayMain\\ArrayMain.csproj",
+        "projectUniqueName": "H:\\Old D Drive\\Coding Stuff\\C# Playgrounds\\ArraysPlayground\\ArrayManipulation\\ArrayMain\\ArrayMain\\ArrayMain.csproj",
         "projectName": "ArrayMain",
-        "projectPath": "H:\\Old D Drive\\Coding Stuff\\C# Playgrounds\\ArraysPlayground\\ArrayMain\\ArrayMain\\ArrayMain.csproj",
+        "projectPath": "H:\\Old D Drive\\Coding Stuff\\C# Playgrounds\\ArraysPlayground\\ArrayManipulation\\ArrayMain\\ArrayMain\\ArrayMain.csproj",
         "packagesPath": "C:\\Users\\contr\\.nuget\\packages\\",
-        "outputPath": "H:\\Old D Drive\\Coding Stuff\\C# Playgrounds\\ArraysPlayground\\ArrayMain\\ArrayMain\\obj\\",
+        "outputPath": "H:\\Old D Drive\\Coding Stuff\\C# Playgrounds\\ArraysPlayground\\ArrayManipulation\\ArrayMain\\ArrayMain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "H:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

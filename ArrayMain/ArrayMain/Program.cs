@@ -26,11 +26,29 @@ namespace ArrayMain
             }
 
             Console.WriteLine();
-            
+
             int[] sampleArray3 = [1, 2, 3, 2, 4, 3, 5];
 
             Console.WriteLine(DuplicateFinder(sampleArray3)); // results in "Element 2 is duplicated 2 times. Element 3 is duplicated 2 times."
+            Console.WriteLine();
 
+            int[] sampleArray4 = { 10, 20, 30, 40, 50 };
+            var test4 = MoveElement(sampleArray4, 1, 3); // moves the element at index 1 (20) to index 3, resulting in {10, 30, 40, 20, 50}
+            foreach (var item in test4)
+            {
+                Console.Write(item + " ");
+            }
+
+            Console.WriteLine();
+
+            int[] sampleArray5 = { 0, 1, 0, 0, 1, 0 };
+            var test5 = SortAnArray(sampleArray5); // results in {0, 0, 0, 0, 1, 1}
+            foreach (var item in test5)
+            {
+                Console.Write(item + " ");
+            }   
+
+            Console.WriteLine();
         }
 
         //A function to rotate an array by a given number of positions
@@ -58,11 +76,11 @@ namespace ArrayMain
             int[] answer = new int[arr.Length];
             answer[0] = arr[0];
 
-            if(arr.Length <= 0)
+            if (arr.Length <= 0)
             {
                 throw new ArgumentException("Array must contain at least one element.");
             }
-            else if(arr.Length == 1)
+            else if (arr.Length == 1)
             {
                 return answer;
             }
@@ -85,7 +103,7 @@ namespace ArrayMain
             }
 
             //Using a dictionary to count occurrences of each element
-            Dictionary<int,int> duplicatesTable = new Dictionary<int,int>();
+            Dictionary<int, int> duplicatesTable = new Dictionary<int, int>();
             foreach (var item in arr)
             {
                 //If the item is already in the dictionary, increment its count
@@ -102,7 +120,7 @@ namespace ArrayMain
             string answer = String.Empty;
             foreach (var item in duplicatesTable)
             {
-                if(item.Value > 1)
+                if (item.Value > 1)
                 {
                     answer += $"Element {item.Key} is duplicated {item.Value} times.\n";
                 }
@@ -111,6 +129,52 @@ namespace ArrayMain
             return answer;
         }
 
+        //A function that moves an element to a specific position in an array
+        public static int[] MoveElement(int[] arr, int indexToMove, int indexToMoveTo)
+        {
+            // edge case for empty array
+            if (arr.Length <= 0)
+            {
+                throw new ArgumentException("Array must contain at least one element.");
+            }
 
+            if (indexToMove < 0 || indexToMove >= arr.Length || indexToMoveTo < 0 || indexToMoveTo >= arr.Length)
+            {
+                throw new ArgumentException("Indices must be within the bounds of the array.");
+            }
+
+            int[] answer = (int[])arr.Clone();
+
+            int value = answer[indexToMove];
+
+            if (indexToMove < indexToMoveTo)
+            {
+                Array.Copy(answer, indexToMove + 1, answer, indexToMove, indexToMoveTo - indexToMove);
+            }
+            else
+            {
+                Array.Copy(answer, indexToMoveTo, answer, indexToMoveTo + 1, indexToMove - indexToMoveTo);
+            }
+
+            answer[indexToMoveTo] = value;
+            return answer;
+
+        }
+
+
+        //Sort an array
+        public static int[] SortAnArray(int[] arr)
+        {
+            // edge case for empty array
+            if (arr.Length <= 0)
+            {
+                throw new ArgumentException("Array must contain at least one element.");
+            }
+
+            int[] answer = (int[])arr.Clone();
+            Array.Sort(answer);
+
+            return answer;
+        }
     }
 }
